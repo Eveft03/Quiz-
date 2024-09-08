@@ -1,0 +1,85 @@
+.answers {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgb(76, 78, 158);;
+    background-color: white;
+    
+}
+
+.answers:hover {
+     cursor: pointer;
+      box-shadow: 0 0.4rem 1.5rem rgba(76, 78, 158, 0.5);
+      transform: translateY(0.2rem) translateX(0.2rem);
+      transition: all 0.3s ease;
+}
+
+
+.choice-prefix{
+    padding: 1.5rem 2.5rem ;
+    background-color:rgb(76, 78, 158);
+    color: white;
+}
+
+.choice-text{
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.choice-text:empty {
+    display: none;
+}
+
+.answers:empty{
+    display: none;
+    border: none;
+    background-color: transparent;
+   
+}
+
+.correct{
+    background-color: rgb(75, 216, 75);
+    color: white;
+}
+
+.incorrect{
+    background-color: rgb(206, 63, 63);
+    color: white;
+}
+
+/*HUD*/
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem; /*20px*/
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+
+/*LOADER*/
+#loader {
+    border: 1.6rem solid white;
+    border-radius: 50%;
+    width: 12rem;
+    height: 12rem;
+    border-top: 1.6rem solid rgb(76, 78, 158);
+animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+    0% { 
+        transform: rotate(0deg); 
+    }
+    100% { 
+        transform: rotate(360deg); 
+    }
+}
