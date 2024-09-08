@@ -2,4 +2,5 @@
 
 This my first HTML-CSS-JS project, a simple multiple choice quiz!
 
-It has three questions and you can choose to save your score. Highscores are saved in your local storage! 
+It has three questions and you can choose to save your score. Highscores are saved in your local storage!
+Open the project by clicking on index.html :)
