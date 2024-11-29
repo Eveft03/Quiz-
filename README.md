@@ -1,6 +1,8 @@
-#Trivia Quiz!
+# Trivia Quiz!
 
-This my first HTML-CSS-JS project, a simple multiple choice quiz!
-
-It has three questions and you can choose to save your score. Highscores are saved in your local storage!
-Open the project by clicking on index.html :)
+## An HTML-CSS-JS project, a simple multiple choice quiz!
+## Includes:
+- Three random questions in totatl
+- Highscores board (saved in your local storage!)
+- Point system
+- Question Counter
